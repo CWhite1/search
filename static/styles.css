@@ -1,0 +1,183 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    
+}
+
+body {
+    display: block;
+    margin: 8px;
+    background: #202124;
+}
+
+.right_align {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding: 20px, 20px, 0px, 0px;
+}
+
+.text-right-align {
+  text-align: right;
+  font-size: small;
+
+}
+
+.left_align {
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 20px;
+  padding: 0px;
+  color: rgb(237, 239, 241);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+a {
+    color:  #e3e3ed; 
+    padding : 10px;
+}
+
+a:hover {
+    color: gray;
+   
+}
+
+.title {
+  color: red;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.container {
+    position: relative; 
+    text-align: center; 
+    top: 10%;
+}
+
+.containers {
+  position: relative; 
+  text-align: right;
+  margin-right: 480px; 
+}
+
+.border-container {
+  border: 3px solid;
+  border-color: #343435;
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
+
+img {
+    width: 275px;
+    height: 125px;
+    margin: 10px;  
+}
+
+
+
+  .search-form {
+    border-radius: 33px 33px 33px 33px;
+    margin: 10px;
+    padding: 10px;
+    width: 40%; 
+    position: relative;
+    border: 3px solid;
+    border-color: #343435;
+    background: #202124;
+    border-style: solid;
+    color:  #e3e3ed; 
+    font-size: 16px;
+    font-family: arial,sans-serif;
+  }
+
+  .search-form:hover {
+    background: #343435;
+
+  }
+
+  .fa-search {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    right: 31.5%;
+    width: 20px;
+    color:  #474749; 
+  }
+  
+  .search-btn {
+    background-color: rgb(59, 57, 57);   
+    margin: 5px;
+    
+   }
+  .search-btn:hover {
+   border-color: #b3b3b8;
+    border-style: solid;
+    background-color: rgb(59, 57, 57); 
+    }
+
+  .adv-search-btn {
+    background-color: rgb(22, 22, 243);    
+    margin: 5px;
+    color: white;
+    
+    }
+  .adv-search-btn:hover {
+    background-color: rgb(26, 26, 114); 
+    color: white;
+    }
+
+
+    div {
+      margin-bottom: 10px;
+    }
+    .label-left  {
+      display: inline-block;
+      width: 225px;
+
+    }
+
+    .label-lefts  {
+      display: inline-block;
+      width: 225px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+    }
+
+    .label-rights  {
+      display: inline-block;
+      text-align: right;
+      margin-right: 270px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .label-right  {
+      display: inline-block;
+      width: 300px;
+      font-size:x-small;
+    }
+    .input {
+      padding: 5px 10px;
+      margin: 20px;
+      width: 700px;
+      background-color: rgb(59, 57, 57); 
+      
+    }
+    .input:hover {
+      border-color: #b3b3b8;
+       border-style: solid;
+       background-color: rgb(39, 2, 2); 
+       color: white;
+       }
